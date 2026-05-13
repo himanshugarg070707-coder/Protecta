@@ -1,0 +1,12 @@
+<resources>
+    <color name="md_theme_light_primary">#C62828</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_background">#FFF8F6</color>
+    <color name="md_theme_light_onBackground">#1F1B1B</color>
+
+    <color name="safe_green">#1E8E3E</color>
+    <color name="unsafe_red">#C5221F</color>
+    <color name="fake_call_background_start">#101726</color>
+    <color name="fake_call_background_end">#04070C</color>
+    <color name="fake_call_accent">#67A9FF</color>
+</resources>

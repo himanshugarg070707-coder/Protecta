@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Protecta</string>
+
+    <string name="monitor_service_title">Protecta Safety Monitoring</string>
+    <string name="monitor_service_active">Monitoring motion patterns for safety</string>
+    <string name="monitor_channel_name">Safety Monitoring</string>
+    <string name="monitor_channel_description">Foreground alerts for motion-based automatic SOS</string>
+
+    <string name="location_status_missing_permission">Location status: permission not granted</string>
+    <string name="location_status_not_ready">Location status: waiting for GPS signal</string>
+    <string name="monitor_status_enabled">Monitoring service: ON</string>
+    <string name="monitor_status_disabled">Monitoring service: OFF</string>
+
+    <string name="tap_instruction_on">Tap SOS button 4 times quickly or shake phone to trigger alert.</string>
+    <string name="tap_instruction_off">Tap trigger is OFF. Use long-press SOS or shake trigger.</string>
+
+    <string name="tracking_status_on">Live Tracking: ON</string>
+    <string name="tracking_status_off">Live Tracking: OFF</string>
+</resources>

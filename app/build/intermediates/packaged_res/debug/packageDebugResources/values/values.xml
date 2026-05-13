@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="fake_call_accent">#67A9FF</color>
+    <color name="fake_call_background_end">#04070C</color>
+    <color name="fake_call_background_start">#101726</color>
+    <color name="md_theme_light_background">#FFF8F6</color>
+    <color name="md_theme_light_onBackground">#1F1B1B</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primary">#C62828</color>
+    <color name="safe_green">#1E8E3E</color>
+    <color name="unsafe_red">#C5221F</color>
+    <string name="app_name">Protecta</string>
+    <string name="location_status_missing_permission">Location status: permission not granted</string>
+    <string name="location_status_not_ready">Location status: waiting for GPS signal</string>
+    <string name="monitor_channel_description">Foreground alerts for motion-based automatic SOS</string>
+    <string name="monitor_channel_name">Safety Monitoring</string>
+    <string name="monitor_service_active">Monitoring motion patterns for safety</string>
+    <string name="monitor_service_title">Protecta Safety Monitoring</string>
+    <string name="monitor_status_disabled">Monitoring service: OFF</string>
+    <string name="monitor_status_enabled">Monitoring service: ON</string>
+    <string name="tap_instruction_off">Tap trigger is OFF. Use long-press SOS or shake trigger.</string>
+    <string name="tap_instruction_on">Tap SOS button 4 times quickly or shake phone to trigger alert.</string>
+    <string name="tracking_status_off">Live Tracking: OFF</string>
+    <string name="tracking_status_on">Live Tracking: ON</string>
+    <style name="Theme.Protecta" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/md_theme_light_primary</item>
+        <item name="android:navigationBarColor" ns1:targetApi="l">@color/md_theme_light_background</item>
+        <item name="android:windowBackground">@color/md_theme_light_background</item>
+    </style>
+    <style name="Theme.Protecta.FakeCall" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_fake_call_gradient</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
